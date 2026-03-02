@@ -602,7 +602,7 @@ def plot_thermal_comparison(results_vert, results_horiz, basis0_v, basis_t_v, te
 
     fig.suptitle("Fig 3: Thermal Distribution at 10V (2.5D Corrected)", fontsize=14)
     plt.tight_layout()
-    plt.savefig("/home/kumar/femwell/ln_fig3_thermal_2p5d.png", dpi=200, bbox_inches="tight")
+    plt.savefig("/home/kumar/femwell/images/ln_fig3_thermal_2p5d.png", dpi=200, bbox_inches="tight")
     plt.close()
     print("  Saved: ln_fig3_thermal_2p5d.png")
 
@@ -666,7 +666,7 @@ def plot_tuning_curves(results_vert, results_horiz):
 
     fig.suptitle("Fig 8: MZI Thermo-Optic Tuning (2.5D Corrected)", fontsize=14)
     plt.tight_layout()
-    plt.savefig("/home/kumar/femwell/ln_fig8_tuning_2p5d.png", dpi=200, bbox_inches="tight")
+    plt.savefig("/home/kumar/femwell/images/ln_fig8_tuning_2p5d.png", dpi=200, bbox_inches="tight")
     plt.close()
     print("  Saved: ln_fig8_tuning_2p5d.png")
 
@@ -698,7 +698,7 @@ def plot_mode_profile(basis0, epsilon):
     ax.axis("off")
 
     plt.tight_layout()
-    plt.savefig("/home/kumar/femwell/ln_mode_profile_2p5d.png", dpi=200, bbox_inches="tight")
+    plt.savefig("/home/kumar/femwell/images/ln_mode_profile_2p5d.png", dpi=200, bbox_inches="tight")
     plt.close()
     print("  Saved: ln_mode_profile_2p5d.png")
 
@@ -733,7 +733,7 @@ def plot_core_temperature(results_vert, results_horiz):
     ax.grid(True, alpha=0.3)
 
     plt.tight_layout()
-    plt.savefig("/home/kumar/femwell/ln_core_temp_2p5d.png", dpi=200, bbox_inches="tight")
+    plt.savefig("/home/kumar/femwell/images/ln_core_temp_2p5d.png", dpi=200, bbox_inches="tight")
     plt.close()
     print("  Saved: ln_core_temp_2p5d.png")
 
